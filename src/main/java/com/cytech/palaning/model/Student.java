@@ -9,6 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import com.cytech.palaning.model.school.Speciality;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity
 public class Student extends User implements Serializable{
@@ -16,21 +17,29 @@ public class Student extends User implements Serializable{
 	@Id 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(nullable = false, updatable = false)
+	@JsonProperty("studentId")
 	private Long studentId;
+	@JsonProperty("schoolYear")
 	private int schoolYear;
+	@JsonProperty("specialityId")
 	@Column(nullable = false)
 	private Long specialityId;
 
 	
 
-	public Student(String firstName, String email, int phone, String lastName, String password, String role,
+	public Student(
 			Long studentId, int schoolYear, Long specialityId) {
-		super(firstName, email, phone, lastName, password, role);
+		super();
 		this.studentId = studentId;
 		this.schoolYear = schoolYear;
 		this.specialityId = specialityId;
 	}
-
+	public Student() {
+			
+		super();
+		
+	}
+	
 	public int getSchoolYear() {
 		return schoolYear;
 	}

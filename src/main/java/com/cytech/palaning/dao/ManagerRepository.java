@@ -6,4 +6,8 @@ import com.cytech.palaning.model.Manager;
 
 public interface ManagerRepository extends JpaRepository<Manager, Long> {
 
+	Manager findManagerByManagerId(Long managerId);
+
+	void deleteManagerByManagerId(Long managerId);
+
 }

@@ -16,10 +16,14 @@ public class Manager extends User implements Serializable{
 	@Column(nullable = false, updatable = false)
 	private Long managerId;
 
-	public Manager(String firstName, String email, int phone, String lastName, String password, String role,
+	public Manager(
 			Long managerId) {
-		super(firstName, email, phone, lastName, password, role);
+		
 		this.managerId = managerId;
+	}
+	
+	public Manager() {
+		
 	}
 
 	public Long getStudentId() {

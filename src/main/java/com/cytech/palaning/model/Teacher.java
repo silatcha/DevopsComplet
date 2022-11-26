@@ -22,14 +22,17 @@ public class Teacher extends User implements Serializable {
 	
 	//private List<Disponibility> disponibility;
 
-	public Teacher(String firstName, String email, int phone, String lastName, String password, String role,
+	public Teacher(
 			Long teacherId) {
-		super(firstName, email, phone, lastName, password, role);
+		
 		this.teacherId = teacherId;
 		
 	}
 
-
+	public Teacher(
+			) {
+		
+	}
 
 	
 

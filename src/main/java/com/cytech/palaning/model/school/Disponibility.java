@@ -7,13 +7,19 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 @Entity
 public class Disponibility {
 	
 	@Id @GeneratedValue
+	@JsonProperty("dispoId")
 	private Long dispoId;
+	@JsonProperty("listHour")
 	private ArrayList<Time>  listHour;
+	@JsonProperty("day")
 	private String day;
+	@JsonProperty("teacherId")
 	private Long teacherId;
 	
 	
@@ -23,6 +29,8 @@ public class Disponibility {
 		this.listHour = listHour;
 		this.day = day;
 	}
+	
+public Disponibility() {}
 
 
 	public ArrayList<Time> getListHour() {
