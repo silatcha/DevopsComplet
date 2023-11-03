@@ -4,8 +4,8 @@ com/cytech/palaning/model/Manager.class
 com/cytech/palaning/model/school/Speciality.class
 com/cytech/palaning/controller/StudentController.class
 com/cytech/palaning/model/Teacher.class
-com/cytech/palaning/CytechApplication.class
 com/cytech/palaning/dao/TeacherRepository.class
+com/cytech/palaning/CytechApplication.class
 com/cytech/palaning/model/User.class
 com/cytech/palaning/Exception/StudentException.class
 com/cytech/palaning/dao/DisponibilityRepository.class
