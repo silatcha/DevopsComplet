@@ -2,8 +2,8 @@
 /home/runner/work/DevopsComplet/DevopsComplet/src/main/java/com/cytech/palaning/controller/ManagerController.java
 /home/runner/work/DevopsComplet/DevopsComplet/src/main/java/com/cytech/palaning/model/Manager.java
 /home/runner/work/DevopsComplet/DevopsComplet/src/main/java/com/cytech/palaning/dao/DisponibilityRepository.java
-/home/runner/work/DevopsComplet/DevopsComplet/src/main/java/com/cytech/palaning/dao/StudentRepository.java
 /home/runner/work/DevopsComplet/DevopsComplet/src/main/java/com/cytech/palaning/dao/TeacherRepository.java
+/home/runner/work/DevopsComplet/DevopsComplet/src/main/java/com/cytech/palaning/dao/StudentRepository.java
 /home/runner/work/DevopsComplet/DevopsComplet/src/main/java/com/cytech/palaning/model/school/Speciality.java
 /home/runner/work/DevopsComplet/DevopsComplet/src/main/java/com/cytech/palaning/controller/StudentController.java
 /home/runner/work/DevopsComplet/DevopsComplet/src/main/java/com/cytech/palaning/model/school/Disponibility.java
