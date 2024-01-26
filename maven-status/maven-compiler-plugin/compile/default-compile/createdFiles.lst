@@ -14,6 +14,6 @@ com/cytech/palaning/dao/StudentRepository.class
 com/cytech/palaning/service/StudentService.class
 com/cytech/palaning/controller/ManagerController.class
 com/cytech/palaning/model/school/Disponibility.class
-com/cytech/palaning/service/ManagerService.class
 com/cytech/palaning/service/DispoService.class
+com/cytech/palaning/service/ManagerService.class
 com/cytech/palaning/dao/ManagerRepository.class
