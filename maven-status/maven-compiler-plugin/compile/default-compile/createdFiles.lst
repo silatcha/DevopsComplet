@@ -1,5 +1,5 @@
-com/cytech/palaning/controller/TeacherController.class
 com/cytech/palaning/model/Student.class
+com/cytech/palaning/controller/TeacherController.class
 com/cytech/palaning/model/Manager.class
 com/cytech/palaning/model/school/Speciality.class
 com/cytech/palaning/controller/StudentController.class
